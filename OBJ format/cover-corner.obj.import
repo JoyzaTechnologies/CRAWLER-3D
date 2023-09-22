@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cajx6a6xrxqkd"
+path="res://.godot/imported/cover-corner.obj-5b04e9658acaee3efd50aa3fbd85bdfd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cover-corner.obj-5b04e9658acaee3efd50aa3fbd85bdfd.mesh"]
+
+source_file="res://OBJ format/cover-corner.obj"
+dest_files=["res://.godot/imported/cover-corner.obj-5b04e9658acaee3efd50aa3fbd85bdfd.mesh", "res://.godot/imported/cover-corner.obj-5b04e9658acaee3efd50aa3fbd85bdfd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

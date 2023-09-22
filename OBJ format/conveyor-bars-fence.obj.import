@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dbcrqaq8ux74c"
+path="res://.godot/imported/conveyor-bars-fence.obj-2d8950ef1bab0fb026b5801e050e5155.mesh"
+
+[deps]
+
+files=["res://.godot/imported/conveyor-bars-fence.obj-2d8950ef1bab0fb026b5801e050e5155.mesh"]
+
+source_file="res://OBJ format/conveyor-bars-fence.obj"
+dest_files=["res://.godot/imported/conveyor-bars-fence.obj-2d8950ef1bab0fb026b5801e050e5155.mesh", "res://.godot/imported/conveyor-bars-fence.obj-2d8950ef1bab0fb026b5801e050e5155.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

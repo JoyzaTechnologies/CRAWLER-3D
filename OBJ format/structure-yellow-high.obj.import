@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://trecn5ih3fyq"
+path="res://.godot/imported/structure-yellow-high.obj-8b6854ff2a42bc6ab4ff129880750b66.mesh"
+
+[deps]
+
+files=["res://.godot/imported/structure-yellow-high.obj-8b6854ff2a42bc6ab4ff129880750b66.mesh"]
+
+source_file="res://OBJ format/structure-yellow-high.obj"
+dest_files=["res://.godot/imported/structure-yellow-high.obj-8b6854ff2a42bc6ab4ff129880750b66.mesh", "res://.godot/imported/structure-yellow-high.obj-8b6854ff2a42bc6ab4ff129880750b66.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

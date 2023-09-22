@@ -1,0 +1,47 @@
+[gd_scene load_steps=8 format=3 uid="uid://htx343adv5py"]
+
+[ext_resource type="Texture2D" uid="uid://b2tyevepbaydn" path="res://assets/textures/flat-metal.png" id="1_ibycp"]
+[ext_resource type="PackedScene" uid="uid://dqaifxgo3aqco" path="res://scenes/player.tscn" id="2_cs8pq"]
+[ext_resource type="ArrayMesh" uid="uid://cjukad0ek773e" path="res://assets/textures/tinker.obj" id="3_hl6na"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_hsejo"]
+sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+
+[sub_resource type="Sky" id="Sky_ximga"]
+sky_material = SubResource("ProceduralSkyMaterial_hsejo")
+
+[sub_resource type="Environment" id="Environment_bsns6"]
+background_mode = 2
+sky = SubResource("Sky_ximga")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ooy7w"]
+albedo_texture = ExtResource("1_ibycp")
+uv1_scale = Vector3(0.02, 0.02, 0.02)
+uv1_triplanar = true
+
+[node name="world" type="Node3D"]
+transform = Transform3D(0.997046, 0, 0, 0, 0.997046, 0, 0, 0, 0.997046, 0, 0, 0)
+
+[node name="stage" type="Node3D" parent="."]
+
+[node name="enviroment" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0169014, 0.0587779, 0.0385317)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="enviroment"]
+environment = SubResource("Environment_bsns6")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="enviroment"]
+transform = Transform3D(-0.866025, -0.433013, 0.25, 0, 0.5, 0.866025, -0.5, 0.75, -0.433013, 0, 0, 0)
+shadow_enabled = true
+
+[node name="player" parent="." instance=ExtResource("2_cs8pq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0195279, 1.40762, -0.0517046)
+
+[node name="CSGMesh3D" type="CSGMesh3D" parent="."]
+transform = Transform3D(0.109721, -1.12838e-16, -2.04334e-24, -1.6728e-24, -7.07067e-09, 0.134025, -7.65384e-17, -0.161758, -5.85841e-09, 2.08165e-12, 2.08165e-12, 2.08165e-12)
+use_collision = true
+mesh = ExtResource("3_hl6na")
+material = SubResource("StandardMaterial3D_ooy7w")

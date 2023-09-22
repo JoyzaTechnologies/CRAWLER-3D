@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bax6qackbejey"
+path="res://.godot/imported/conveyor-bars-stripe-high.obj-a4ce9abdbbc2235dd7d86be7b9718444.mesh"
+
+[deps]
+
+files=["res://.godot/imported/conveyor-bars-stripe-high.obj-a4ce9abdbbc2235dd7d86be7b9718444.mesh"]
+
+source_file="res://OBJ format/conveyor-bars-stripe-high.obj"
+dest_files=["res://.godot/imported/conveyor-bars-stripe-high.obj-a4ce9abdbbc2235dd7d86be7b9718444.mesh", "res://.godot/imported/conveyor-bars-stripe-high.obj-a4ce9abdbbc2235dd7d86be7b9718444.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b81tgv7o0p5de"
+path="res://.godot/imported/cover-stripe-hopper.obj-dfcf9797d2fff3cd888b409c7d0d2af8.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cover-stripe-hopper.obj-dfcf9797d2fff3cd888b409c7d0d2af8.mesh"]
+
+source_file="res://OBJ format/cover-stripe-hopper.obj"
+dest_files=["res://.godot/imported/cover-stripe-hopper.obj-dfcf9797d2fff3cd888b409c7d0d2af8.mesh", "res://.godot/imported/cover-stripe-hopper.obj-dfcf9797d2fff3cd888b409c7d0d2af8.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

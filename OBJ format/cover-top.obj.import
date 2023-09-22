@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b5akt5cljaeil"
+path="res://.godot/imported/cover-top.obj-6855471baa4d6dcf65f9f8f2fc925790.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cover-top.obj-6855471baa4d6dcf65f9f8f2fc925790.mesh"]
+
+source_file="res://OBJ format/cover-top.obj"
+dest_files=["res://.godot/imported/cover-top.obj-6855471baa4d6dcf65f9f8f2fc925790.mesh", "res://.godot/imported/cover-top.obj-6855471baa4d6dcf65f9f8f2fc925790.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

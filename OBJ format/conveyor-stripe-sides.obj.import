@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d2wjx1doe3ydg"
+path="res://.godot/imported/conveyor-stripe-sides.obj-797cc96f27202e2f84d31fcea235073c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/conveyor-stripe-sides.obj-797cc96f27202e2f84d31fcea235073c.mesh"]
+
+source_file="res://OBJ format/conveyor-stripe-sides.obj"
+dest_files=["res://.godot/imported/conveyor-stripe-sides.obj-797cc96f27202e2f84d31fcea235073c.mesh", "res://.godot/imported/conveyor-stripe-sides.obj-797cc96f27202e2f84d31fcea235073c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
